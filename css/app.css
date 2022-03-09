@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'DokumentPro';
+    src: url('./../fonts/Dokument\ Pro/.'), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'DokumentPro';
+    margin:0
+}
+
+.header{
+    background-color: black;
+    color: whitesmoke;
+    max-width: 100%;
+    padding:1.5vmax 5vmax;
+    align-items: center;
+    font-size: larger;
+}
+
+.diaCentro{
+    display: flex;
+    flex-direction: row;
+    max-height: 50%;
+}
+
+.imgCentro{
+    object-fit: cover;
+    max-height: 35em;
+    margin-right: 12em;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo{
+    align-self: auto;
+    font-size: 7em;
+    color:#fc6c04;
+}
+
+button{
+    border-radius: 25px;
+    padding: 0.3em 0.8em;
+    font-size: 1.5em;
+    background-color: #fc6c04;
+    color: whitesmoke;
+    font-weight: 900;
+    border:0px;
+}
+
+#asistir{
+    margin-top: 2em;
+}
+
+.orange{
+    color:#fc6c04
+}
+
+#firstBlack{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+    font-size: 1.3em;
+}
+
+#bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+aside{
+    align-self: end;
+    margin-bottom: -2.85em;
+    margin-right: 20px;
+    margin-top:-8em;
+    z-index: 1;
+}
+
+#firstWhite{
+    margin: 3em 3em;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+}
+
+.stretch{
+    background-size:contain;
+    margin-top: 1em;
+    flex-basis: 30%;
+}
+
+.descargar{
+    background-color: black;
+    color: white;
+    width:fit-content;
+    font-weight: 100;
+    font-size: larger;
+    align-self: center;
+    margin: 1.5em 3em;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1em 3em;
+}
