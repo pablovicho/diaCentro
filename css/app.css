@@ -122,3 +122,16 @@ aside{
     flex-wrap: wrap;
     margin: 1em 3em;
 }
+
+footer{
+    background-color: #fc6c04;
+    color: whitesmoke;
+    max-width: 100%;
+    padding:1em;
+    align-items: center;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
